@@ -59,7 +59,7 @@ func main() {
 	sort.Ints(slice1)
 	fmt.Println(slice1)
 
-	//key value 值转换
+	//key value 转换
 	map2 := map[int]string{1: "a", 2: "b", 3: "c", 4: "d", 5: "e"}
 	map3 := make(map[string]int, len(map2))
 
